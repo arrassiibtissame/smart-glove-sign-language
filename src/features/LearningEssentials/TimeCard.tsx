@@ -20,7 +20,7 @@ export function TimeCard() {
         </div>
 
         {/* middle Title of card*/}
-        <p className="text-gray-900 font-bold text-xl">Time</p>
+        <p className="text-gray-900 font-bold text-xl">Time & Quantity</p>
 
         {/* Description of card */}
         <p className="text-gray-500 text-sm text-center">

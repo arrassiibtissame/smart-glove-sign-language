@@ -18,7 +18,7 @@ export function CategoryCardsWordPage() {
       </button>
 
       <div className="flex flex-col items-center gap-2">
-        <h1 className="text-4xl font-bold text-gray-900">Learn the Basics</h1>
+        <h1 className="text-4xl font-bold text-gray-900">Learn the Words </h1>
         <p className="text-gray-500 text-sm">Choose what you'd like to learn</p>
       </div>
 

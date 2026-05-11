@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { PronounsCard } from "./PronounsCard";
 import { TimeCard } from "./TimeCard";
-import { QuantityCard } from "./QuantityCard";
 
 export function CategoryCradPageEss() {
   const navigate = useNavigate();
@@ -17,15 +16,16 @@ export function CategoryCradPageEss() {
       </button>
 
       <div className="flex flex-col items-center gap-2">
-        <h1 className="text-4xl font-bold text-gray-900">Learn the Basics</h1>
+        <h1 className="text-4xl font-bold text-gray-900">
+          Learn the Essentials
+        </h1>
         <p className="text-gray-500 text-sm">Choose what you'd like to learn</p>
       </div>
 
-      {/* The 3 cards container*/}
-      <div className="grid grid-cols-3 gap-6 ">
+      {/* The 2 cards container*/}
+      <div className="grid grid-cols-2 gap-6 ">
         <PronounsCard />
         <TimeCard />
-        <QuantityCard />
       </div>
     </div>
   );

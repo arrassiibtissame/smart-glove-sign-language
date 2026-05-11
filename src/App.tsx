@@ -2,7 +2,7 @@ import { useState } from "react";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { SideBar } from "./components/Layout/SideBar";
-import { Header } from "./components/Layout/Header";
+
 import { DashboardPage } from "./features/dashboard/components/dashboardPage";
 import { LearnPage } from "./features/learningsP/learnPage";
 import { AlphabetLearningPage } from "./features/learningAlphabet/AlphabetLearningPage";

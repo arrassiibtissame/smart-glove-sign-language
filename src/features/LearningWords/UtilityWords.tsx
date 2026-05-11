@@ -20,7 +20,7 @@ export function UtilityWordCard() {
         </div>
 
         {/* middle Title of card*/}
-        <p className="text-gray-900 font-bold text-xl">Utility Words</p>
+        <p className="text-gray-900 font-bold text-xl">Utility </p>
 
         {/* Description of card */}
         <p className="text-gray-500 text-sm text-center">

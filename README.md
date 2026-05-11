@@ -103,6 +103,7 @@ Smart-Glove-Sign-Translator/
 **Conference:** DGFC 2026 *(paper submitted)*
 
 ---
+> ⚠️ **Original Repository**: This is the official and original repository of SignBridge, developed by [Ferdaws Anzer](https://github.com/FerdawsAnzer) and the SignBridge Team at Cyprus International University. Any copies or forks are not the original work.
 
 ---
 

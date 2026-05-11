@@ -48,7 +48,7 @@ it never replaces the user's intent. If a gesture is misrecognized, the user sim
 
 | Layer | Technology |
 |---|---|
-| Hardware | ESP32-S3, Flex Sensors, MPU6050 IMU |
+| Hardware | ESP32-S3, Flex Sensors, MPU6050  |
 | Backend | Python, FastAPI, WebSockets |
 | ML Model | scikit-learn (KNN), TensorFlow/Keras (LSTM — in dev), pandas, numpy |
 | Frontend | React, TypeScript, Tailwind CSS, shadcn/ui |

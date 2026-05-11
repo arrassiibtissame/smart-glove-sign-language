@@ -102,7 +102,7 @@ Smart-Glove-Sign-Translator/
 | **Chadrack Zeka Tshiwewe** | ESP32-S3 firmware & WebSocket transmission to backend |
 
 **Supervisor:** Prof. Dr. Melike Şah Direkoğlu  
-**Institution:** Cyprus International University — Software Engineering  
+**Institution:** Cyprus International University  
 **Conference:** DGFC 2026 *(paper submitted)*
 
 ---

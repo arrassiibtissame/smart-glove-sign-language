@@ -170,7 +170,7 @@ async def glove_endpoint(websocket: WebSocket):
                 ], dtype=np.float32)
 
             except KeyError as e:
-                print("⚠️ Missing key in glove data: {e}")
+                print(f"⚠️ Missing key in glove data: {e}")
                 continue
 
             result = _session_buffer.push(sample)
@@ -180,7 +180,7 @@ async def glove_endpoint(websocket: WebSocket):
                     "letter":     result["prediction"],
                     "confidence": result["confidence"]
                 })
-                print(" 📤 Sent to frontend: {result['prediction']}")
+                print(f" 📤 Sent to frontend: {result['prediction']}")
 
     except WebSocketDisconnect:
         print("❌ Glove disconnected")

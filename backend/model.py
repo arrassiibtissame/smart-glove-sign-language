@@ -1,84 +1,72 @@
 import json
 import numpy as np
-import tensorflow as tf
+import keras
+from keras.models import load_model
+from preprocessing import normalize_window, is_dynamic
 
-#  Load models once when server starts 
-
+# Load both models immediately at startup — never inside a function 
 print("Loading models...")
-static_model  = tf.keras.models.load_model("artifacts/static_model.keras")
-dynamic_model = tf.keras.models.load_model("artifacts/dynamic_model.keras")
+static_model  = load_model("artifacts/static_model.keras")
+dynamic_model = load_model("artifacts/dynamic_model.keras")
 
-with open("artifacts/static_norm_params.json")  as f: STATIC_NORM   = json.load(f)
-with open("artifacts/dynamic_norm_params.json") as f: DYNAMIC_NORM  = json.load(f)
-with open("artifacts/static_label_map.json")    as f: STATIC_LABELS = json.load(f)
-with open("artifacts/dynamic_label_map.json")   as f: DYNAMIC_LABELS = json.load(f)
+# Load label maps
+with open("artifacts/static_label_map.json")  as f: static_labels  = json.load(f)
+with open("artifacts/dynamic_label_map.json") as f: dynamic_labels = json.load(f)
 
-print("✅ Models loaded!")
+# Load normalization params 
+with open("artifacts/static_norm_params.json")  as f: static_norm  = json.load(f)
+with open("artifacts/dynamic_norm_params.json") as f: dynamic_norm = json.load(f)
 
-#  Settings
-STATIC_STEPS  = 10   # static model expects 10 rows
-DYNAMIC_STEPS = 40   # dynamic model expects 40 rows
-CONFIDENCE    = 0.7  # minimum confidence
+print("✅ Model loaded successfully!")
 
-FLEX_COLS = ["flex1","flex2","flex3","flex4","flex5"]
+#  Constants 
+CONFIDENCE_THRESHOLD = 0.70
+STATIC_TIMESTEPS     = 10    # static model expects exactly 10 rows
+DYNAMIC_TIMESTEPS    = 40    # dynamic model expects exactly 40 rows
+GY_THRESHOLD         = 2000.0
 
-#  Normalize window 
-def normalize(window: np.ndarray, mode: str) -> np.ndarray:
-    norm   = STATIC_NORM if mode == "static" else DYNAMIC_NORM
-    data   = window.astype(np.float32).copy()
-    ranges = norm["global_ranges"]
 
-    # flex → min max normalization
-    for i, col in enumerate(FLEX_COLS):
-        mn  = ranges[col]["min"]
-        mx  = ranges[col]["max"]
-        rng = mx - mn
-        data[:, i] = (data[:, i] - mn) / rng if rng > 5 else 0.5
-
-    # imu → standard scaler
-    mean  = np.array(norm["imu_mean"])
-    scale = np.array(norm["imu_scale"])
-    data[:, 5:] = (data[:, 5:] - mean) / scale
-
-    return data
-
-#  Main predict function 
-def predict(raw: np.ndarray) -> dict | None:
+# Main predict function 
+def predict(raw_window: np.ndarray):
     try:
-        n_rows = len(raw)
+        # Step 1 , decide static or dynamic from raw gyroscope std
+        dynamic   = is_dynamic(raw_window, threshold=GY_THRESHOLD)
+        sign_type = "dynamic" if dynamic else "static"
+        model     = dynamic_model  if dynamic else static_model
+        labels    = dynamic_labels if dynamic else static_labels
+        timesteps = DYNAMIC_TIMESTEPS if dynamic else STATIC_TIMESTEPS
 
-        if n_rows >= DYNAMIC_STEPS:
-            # DYNAMIC 
-            window     = raw[-DYNAMIC_STEPS:]
-            normalized = normalize(window, "dynamic")
-            input_data = normalized.reshape(1, DYNAMIC_STEPS, 11)
+        # Step 2 , validate enough rows were collected
+        if len(raw_window) < timesteps:
+            print(f"❌ Not enough samples: got {len(raw_window)}, need {timesteps}")
+            return None
 
-            preds      = dynamic_model.predict(input_data, verbose=0)
-            pred_idx   = int(np.argmax(preds[0]))
-            confidence = float(preds[0][pred_idx])
+        # Step 3 ,slice to the correct window size
+        window_raw = raw_window[:timesteps]
 
-            if confidence >= CONFIDENCE:
-                label = DYNAMIC_LABELS[str(pred_idx)]
-                print(f" Dynamic: {label} ({confidence:.2f})")
-                return {"prediction": label, "confidence": confidence}
+        # Step 4 , normalize using training params
+        window_norm = normalize_window(window_raw, sign_type)
+        X           = window_norm.reshape(1, timesteps, 11).astype(np.float32)
 
-        else:
-            # STATIC 
-            window     = raw[-STATIC_STEPS:]
-            normalized = normalize(window, "static")
-            input_data = normalized.reshape(1, STATIC_STEPS, 11)
+        # Step 5, predict
+        probs      = model.predict(X, verbose=0)[0]
+        pred_idx   = int(probs.argmax())
+        confidence = float(probs[pred_idx])
+        pred_label = labels[str(pred_idx)]
 
-            preds      = static_model.predict(input_data, verbose=0)
-            pred_idx   = int(np.argmax(preds[0]))
-            confidence = float(preds[0][pred_idx])
+        print(f"🤖 Prediction: {pred_label} ({confidence:.2f})")
 
-            if confidence >= CONFIDENCE:
-                label = STATIC_LABELS[str(pred_idx)]
-                print(f" Static: {label} ({confidence:.2f})")
-                return {"prediction": label, "confidence": confidence}
+        # Step 6 ,confidence threshold
+        if confidence < CONFIDENCE_THRESHOLD:
+            return {
+                "prediction": "unknown",
+                "confidence": round(confidence, 3)
+            }
 
-        print(f"⚠️ Low confidence: {confidence:.2f}")
-        return None
+        return {
+            "prediction": pred_label,
+            "confidence": round(confidence, 3)
+        }
 
     except Exception as e:
         print(f"❌ Prediction error: {e}")

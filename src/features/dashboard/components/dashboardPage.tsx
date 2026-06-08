@@ -7,7 +7,7 @@ export function DashboardPage() {
   const [translation, setTranslation] = useState<string>("");
 
   const handlePrediction = (letter: string) => {
-    setTranslation((prev) => prev + " " + letter);
+    setTranslation(letter);
   };
   return (
     <div className="flex-1 p-6">

@@ -12,7 +12,7 @@ export const pronouns: indexPronouns[] = [
      "Use a relaxed hand and avoid stiff motions.",
      "Maintain clear direction toward yourself."
     ],
-    image: "/images/Me-I.gif",
+    image: "/src/assets/Pronouns/Me.gif",
     isLearned: false
   },
 
@@ -25,7 +25,7 @@ export const pronouns: indexPronouns[] = [
     "Avoid bending the fingers too much.",
     "Keep the motion calm and smooth."
   ],
-    image: "/images/My-Mine.gif",
+    image: "/src/assets/Pronouns/My-Mine.gif",
     isLearned: false
   },
 
@@ -39,7 +39,7 @@ export const pronouns: indexPronouns[] = [
     "Keep the wrist relaxed.",
     "Avoid exaggerated arm movement."
   ],
-    image: "/images/You.gif",
+    image: "/src/assets/Pronouns/You.gif",
     isLearned: false
   },
 
@@ -52,7 +52,7 @@ export const pronouns: indexPronouns[] = [
     "Push the hand outward gently.",
     "Keep the movement smooth and controlled."
   ],
-    image: "/images/Your-Yours.gif",
+    image: "/src/assets/Pronouns/Your-Yours.gif",
     isLearned: false
   },
 
@@ -65,7 +65,7 @@ export const pronouns: indexPronouns[] = [
     "Use natural facial focus toward the target.",
     "Avoid fast or unclear movements."
   ],
-    image: "/images/He-She-It.gif",
+    image: "/src/assets/Pronouns/it-she-him.gif",
     isLearned: false
   },
 
@@ -78,7 +78,7 @@ export const pronouns: indexPronouns[] = [
     "Keep fingers together for clarity.",
     "Maintain a gentle outward motion."
   ],
-    image: "/images/His/Her-Its.gif",
+    image: "/src/assets/Pronouns/His-Her-Its.gif",
     isLearned: false
   },
 
@@ -91,7 +91,7 @@ export const pronouns: indexPronouns[] = [
     "Keep the movement small and controlled.",
     "Use relaxed wrist movement."
   ],
-    image: "/images/We.gif",
+    image: "/src/assets/Pronouns/We_us.gif",
     isLearned: false
   },
 
@@ -104,7 +104,7 @@ export const pronouns: indexPronouns[] = [
     "Show inclusion with a gentle sweeping motion.",
     "Avoid sharp or rushed movements."
   ],
-    image: "/images/Our-Ours.gif",
+    image: "/src/assets/Pronouns/Our-Ours.gif",
     isLearned: false
   },
 
@@ -117,7 +117,7 @@ export const pronouns: indexPronouns[] = [
     "Face the direction of the people clearly.",
     "Make the movement easy to follow."
   ],
-    image: "/images/They.gif",
+    image: "/src/assets/Pronouns/They-them.gif",
     isLearned: false
   },
 
@@ -130,7 +130,7 @@ export const pronouns: indexPronouns[] = [
     "Use a smooth outward movement.",
     "Keep finger positioning neat and consistent."
   ],
-    image: "/images/Their-Theirs.gif",
+    image: "/src/assets/Pronouns/Their-Theirs.gif",
     isLearned: false
   },
 

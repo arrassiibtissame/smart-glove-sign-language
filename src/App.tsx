@@ -9,7 +9,6 @@ import { AlphabetLearningPage } from "./features/learningAlphabet/AlphabetLearni
 import { CategoryCardsPage } from "./features/learningsP/CategoryCardsPage";
 import { CategoryCardsWordPage } from "./features/LearningWords/CategoryCardsWordPage";
 import { NumberLearningPage } from "./features/LearningNumbers/NumberLearningPage";
-import { LearningGreetingsPage } from "./features/LearningGreetings/LearningGreetingsPage";
 import { ColorsLearningPage } from "./features/LearningColors/ColorsLearningPage";
 import { HistoryPage } from "./pages/historyPage";
 import SignIn from "@/pages/registration/signIn";
@@ -79,10 +78,7 @@ function App() {
                         path="/learning/CategoryCardsPage"
                         element={<CategoryCardsPage />}
                       />
-                      <Route
-                        path="/learning/Greetings"
-                        element={<LearningGreetingsPage />}
-                      />
+
                       <Route
                         path="/learning/CategoryCardsWordPage"
                         element={<CategoryCardsWordPage />}

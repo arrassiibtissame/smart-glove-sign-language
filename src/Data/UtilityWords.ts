@@ -10,7 +10,7 @@ export const utilityWords : UtilityWords[] = [
     "Keep the hand raised at about chin to shoulder level.",
     "Furrow your brows to signal the WH question expression."
   ],
-    image: "/images/Where.gif",
+    image: "/src/assets/UtilityWordsImg/Where.gif",
     isLearned: false
   },
 
@@ -23,7 +23,7 @@ export const utilityWords : UtilityWords[] = [
     "Keep the rest of your fingers relaxed and curled.",
     "Pair with a furrowed brow to complete the question expression."
   ],
-    image: "/images/Who.gif",
+    image: "/src/assets/UtilityWordsImg/Who.gif",
     isLearned: false
   },
 
@@ -36,7 +36,7 @@ export const utilityWords : UtilityWords[] = [
     "The movement represents a thought leaving your head.",
     "Furrow your brows to complete the WH question facial expression."
   ],
-    image: "/images/Why.gif",
+    image: "/src/assets/UtilityWordsImg/Why.gif",
     isLearned: false
   },
 
@@ -49,7 +49,7 @@ export const utilityWords : UtilityWords[] = [
     "End clearly with palms facing upward and fingers relaxed.",
     "Furrow your brows to complete the WH question facial expression."
   ],
-    image: "/images/How.gif",
+    image: "/src/assets/UtilityWordsImg/How.gif",
     isLearned: false
   },
   {
@@ -61,7 +61,7 @@ export const utilityWords : UtilityWords[] = [
     "The motion is subtle, not exaggerated, a gentle side-to-side tilt.",
     "Furrow your brows and pair with a slight shoulder shrug for full expression."
   ],
-    image: "/images/What.gif",
+    image: "/src/assets/UtilityWordsImg/What.gif",
     isLearned: false
   },
   {
@@ -73,7 +73,7 @@ export const utilityWords : UtilityWords[] = [
     "Both fingers should be close together, the circle is small and tight.",
     "Furrow your brows to complete the WH question facial expression."
   ],
-    image: "/images/When.gif",
+    image: "/src/assets/UtilityWordsImg/When.gif",
     isLearned: false
   },
 
@@ -86,7 +86,7 @@ export const utilityWords : UtilityWords[] = [
     "Keep the thumbs clearly extended upward throughout the motion.",
     "Furrow your brows to complete the WH question facial expression."
   ],
-    image: "/images/Which.gif",
+    image: "/src/assets/UtilityWordsImg/Which.gif",
     isLearned: false
   }
 ]

@@ -1,7 +1,6 @@
 import type { Verbs } from "@/Types/IndexVerbs";
 
 export const verbs : Verbs[] = [
-
   {
     letter: "Like",
     description: "Place your right hand on your chest with your thumb and middle finger pinched together, then pull the hand away from the chest while extending the thumb and middle finger outward as if plucking something from your heart.",
@@ -10,7 +9,7 @@ export const verbs : Verbs[] = [
     "The pull away is smooth, fingers extend open as the hand moves forward.",
     "End with the thumb and middle finger clearly extended and separated from the chest."
   ],
-    image: "/images/Like.gif",
+    image: "/src/assets/verbsImg/Like.jpg",
     isLearned: false
   },
 
@@ -24,7 +23,7 @@ export const verbs : Verbs[] = [
     "Emphasize the wrist-driven scissor snap to make the motion distinguishable.",
     "The motion can be repeated twice to reinforce the meaning."
   ],
-    image: "/images/Cut.gif",
+    image: "/src/assets/verbsImg/Cut.jpg",
     isLearned: false
   },
 
@@ -37,7 +36,7 @@ export const verbs : Verbs[] = [
     "The drop is a sudden downward wrist fall, like releasing something from your grip.",
     "End with fingers hanging loosely downward after the drop."
   ],
-    image: "/images/Drop.gif",
+    image: "/src/assets/verbsImg/Drop.jpg",
     isLearned: false
   },
 
@@ -50,7 +49,7 @@ export const verbs : Verbs[] = [
     "The bend is a sharp downward hook, the wrist drives the motion.",
     "The finger ends up bent or hooked downward at the end of the motion."
   ],
-    image: "/images/Need.gif",
+    image: "/src/assets/verbsImg/Need.jpg",
     isLearned: false
   },
 
@@ -63,7 +62,7 @@ export const verbs : Verbs[] = [
     "The circular motion is small and tight, just beside the ear.",
     "Keep all other fingers loosely curled into the palm."
   ],
-    image: "/images/Hear.gif",
+    image: "/src/assets/verbsImg/Hear.jpg",
     isLearned: false
   },
 
@@ -77,7 +76,7 @@ export const verbs : Verbs[] = [
     "Emphasize the wrist-anchored repeated open-close finger motion.",
     "The repetition is key, one open-close is not enough to clearly sign Talk."
   ],
-    image: "/images/Talk.gif",
+    image: "/src/assets/verbsImg/Talk.jpg",
     isLearned: false
   },
 
@@ -91,7 +90,7 @@ export const verbs : Verbs[] = [
     "Emphasize the repeated wrist-driven tapping motion toward the lips.",
     "Keep the motion small and natural, as if actually bringing food to your mouth."
   ],
-    image: "/images/Eat.gif",
+    image: "/src/assets/verbsImg/Eat.jpg",
     isLearned: false
   },
 
@@ -104,7 +103,7 @@ export const verbs : Verbs[] = [
     "The tilting motion comes from the wrist rotating upward toward the mouth.",
     "End with the hand near the mouth and wrist fully tilted as if finishing a drink."
   ],
-    image: "/images/Drink.gif",
+    image: "/src/assets/verbsImg/Drink.jpg",
     isLearned: false
   },
 
@@ -118,7 +117,7 @@ export const verbs : Verbs[] = [
     "Keep the thumb clearly extended upward throughout the lifting motion.",
     "The upward movement should be smooth and deliberate, not a quick flick."
   ],
-    image: "/images/Help.gif",
+    image: "/src/assets/verbsImg/Help.jpg",
     isLearned: false
   },
 
@@ -132,7 +131,7 @@ export const verbs : Verbs[] = [
     "Keep both fingers of the V fully extended throughout the movement.",
     "End with the V fingers pointing clearly forward, away from your face."
   ],
-    image: "/images/See.gif",
+    image: "/src/assets/verbsImg/See.jpg",
     isLearned: false
   },
 
@@ -146,7 +145,7 @@ export const verbs : Verbs[] = [
     "Emphasize the wrist-driven outward motion to distinguish it from Come.",
     "End with both index fingers pointing clearly forward and away from you."
   ],
-    image: "/images/Go.gif",
+    image: "/src/assets/verbsImg/Go.gif",
     isLearned: false
   },
 
@@ -160,7 +159,7 @@ export const verbs : Verbs[] = [
     "Emphasize the wrist-driven inward arc to make the motion distinguishable.",
     "The motion naturally reads as 'come here', make it smooth and inviting."
   ],
-    image: "/images/Come.gif",
+    image: "/src/assets/verbsImg/Come.gif",
     isLearned: false
   },
 
@@ -174,7 +173,7 @@ export const verbs : Verbs[] = [
     "Emphasize the downward wrist drape of the right hand onto the left one.",
     "Hold the position briefly, the stillness is what distinguishes it from Walk."
   ],
-    image: "/images/Sit.gif",
+    image: "/src/assets/verbsImg/Sit.gif",
     isLearned: false
   },
 
@@ -187,7 +186,7 @@ export const verbs : Verbs[] = [
     "Emphasize a firm wrist placement of the V fingers onto the base palm.",
     "Hold the position steadily to make it clearly distinguishable from other V-hand signs."
   ],
-    image: "/images/Stand.gif",
+    image: "/src/assets/verbsImg/Stand.gif",
     isLearned: false
   },
 
@@ -199,7 +198,7 @@ export const verbs : Verbs[] = [
     "The flick open is quick and simultaneous on both hands, like eyes popping open.",
     "Pair with wide open eyes and a surprised expression to reinforce the meaning."
   ],
-    image: "/images/Wake-Up.gif",
+    image: "/src/assets/verbsImg/Wake-Up.gif",
     isLearned: false
   },
 
@@ -211,7 +210,7 @@ export const verbs : Verbs[] = [
     "As the hand drops, the fingers close together like eyes shutting.",
     "End with fingers fully pinched together and hand near the lower face or chin."
   ],
-    image: "/images/Sleep.gif",
+    image: "/src/assets/verbsImg/Sleep.gif",
     isLearned: false
   },
 
@@ -224,7 +223,7 @@ export const verbs : Verbs[] = [
     "Emphasize the wrist snapping downward on the chop to make it distinguishable.",
     "The right hand lands perpendicular to the base hand, like a karate chop."
   ],
-    image: "/images/Stop.gif",
+    image: "/src/assets/verbsImg/Stop.gif",
     isLearned: false
   },
   {
@@ -235,7 +234,7 @@ export const verbs : Verbs[] = [
     "The wipe travels the full length of the base palm from heel to fingertips.",
     "The motion can be repeated twice like actually wiping a surface clean."
   ],
-    image: "/images/Clean.gif",
+    image: "/src/assets/verbsImg/Clean.gif",
     isLearned: false
   },
 
@@ -249,7 +248,7 @@ export const verbs : Verbs[] = [
     "Fingers curl into a claw as the hands pull in, emphasizing the wrist curl.",
     "Both hands move symmetrically and simultaneously throughout the motion."
   ],
-    image: "/images/Want.gif",
+    image: "/src/assets/verbsImg/Want.gif",
     isLearned: false
   },
 
@@ -262,7 +261,7 @@ export const verbs : Verbs[] = [
     "The right hand flips over smoothly from palm-down to back-down.",
     "The flipping motion can be repeated once to reinforce the meaning."
   ],
-    image: "/images/Cook.gif",
+    image: "/src/assets/verbsImg/Cook.gif",
     isLearned: false
   },
 
@@ -276,7 +275,7 @@ export const verbs : Verbs[] = [
     "Emphasize the wrist-driven writing movement across the base palm.",
     "Unlike Draw which uses the pinky, Write uses the pinched fingertips, this is the key distinction."
   ],
-    image: "/images/Write.gif",
+    image: "/src/assets/verbsImg/Write.gif",
     isLearned: false
   },
 
@@ -290,7 +289,7 @@ export const verbs : Verbs[] = [
     "Emphasize the wrist-driven drawing motion to make it distinguishable from Write.",
     "Keep the other fingers of the right hand loosely curled out of the way."
   ],
-    image: "/images/Draw.gif",
+    image: "/src/assets/verbsImg/Draw.gif",
     isLearned: false
   },
 
@@ -304,7 +303,7 @@ export const verbs : Verbs[] = [
     "Emphasize the wrist-driven scanning motion across the base palm.",
     "The base hand stays flat and still throughout the motion."
   ],
-    image: "/images/Read.gif",
+    image: "/src/assets/verbsImg/Read.gif",
     isLearned: false
   },
 
@@ -318,7 +317,7 @@ export const verbs : Verbs[] = [
     "Emphasize the wrist-guided downward draw on each side of the face.",
     "The motion can be repeated to convey ongoing crying."
   ],
-    image: "/images/Cry.gif",
+    image: "/src/assets/verbsImg/Cry.gif",
     isLearned: false
   },
 
@@ -332,7 +331,7 @@ export const verbs : Verbs[] = [
     "Emphasize the wrist-driven outward flick at the corners of the mouth.",
     "Pair with a genuine smile expression to reinforce the meaning."
   ],
-    image: "/images/Laugh.gif",
+    image: "/src/assets/verbsImg/Laugh.gif",
     isLearned: false
   },
 
@@ -346,7 +345,7 @@ export const verbs : Verbs[] = [
     "Emphasize the alternating wrist-forward motion on each hand.",
     "Keep a steady rhythm, the alternating pattern is what makes the sign clear."
   ],
-    image: "/images/Walk.gif",
+    image: "/src/assets/verbsImg/Walk.gif",
     isLearned: false
   },
 
@@ -360,7 +359,7 @@ export const verbs : Verbs[] = [
     "Emphasize the wrist spring upward to make the motion distinguishable.",
     "The base hand stays completely still, only the right hand moves."
   ],
-    image: "/images/JUmp.gif",
+    image: "/src/assets/verbsImg/Jump.gif",
     isLearned: false
   },
 
@@ -373,7 +372,7 @@ export const verbs : Verbs[] = [
     "The squeeze inward is a subtle but deliberate motion, like tightening a hug.",
     "Keep both fists firm throughout the motion."
   ],
-    image: "/images/Hug.gif",
+    image: "/src/assets/verbsImg/Hug.gif",
     isLearned: false
   }
 

@@ -117,7 +117,7 @@ export const pronouns: indexPronouns[] = [
     "Face the direction of the people clearly.",
     "Make the movement easy to follow."
   ],
-    image: "/src/assets/Pronouns/They-them.gif",
+    image: "/src/assets/Pronouns/They.gif",
     isLearned: false
   },
 

@@ -11,7 +11,7 @@ export const socialWords: SocialWord[] = [
     "Emphasize the wrist flicking outward at the end of the sweep.",
     "Keep fingers flat and together throughout the entire motion."
   ],
-    image: "/src/assets/SocialWords/Hello.gif",
+    image: "/src/assets/SocialWords/Hello.png",
     isLearned: false
   },
 
@@ -24,7 +24,7 @@ export const socialWords: SocialWord[] = [
     "Emphasize the wrist position staying firm while the fingers do the movement.",
     "Two to three finger folds is enough to clearly sign goodbye."
   ],
-    image: "/src/assets/SocialWords/Goodbye.gif",
+    image: "/src/assets/SocialWords/GoodBye.png",
     isLearned: false
   },
 
@@ -37,7 +37,7 @@ export const socialWords: SocialWord[] = [
     "Emphasize the wrist-driven circular motion to make it distinguishable.",
     "Keep the hand flat and fingers together, do not let them curl during the motion."
   ],
-    image: "/src/assets/SocialWords/Please.gif",
+    image: "/src/assets/SocialWords/Please.png",
     isLearned: false
   },
 
@@ -49,7 +49,7 @@ export const socialWords: SocialWord[] = [
     "Emphasize the wrist rotation to make it clearly readable by the glove.",
     "Keep the fist firm and in contact with the chest throughout the motion."
   ],
-    image: "/src/assets/SocialWords/Sorry.gif",
+    image: "/src/assets/SocialWords/Sorry.png",
     isLearned: false
   },
 
@@ -63,7 +63,7 @@ export const socialWords: SocialWord[] = [
     "Emphasize the downward wrist snap to make the motion distinguishable.",
     "The motion can be repeated twice for emphasis."
   ],
-    image: "/src/assets/SocialWords/No.gif",
+    image: "/src/assets/SocialWords/No.png",
     isLearned: false
   },
 
@@ -76,7 +76,7 @@ export const socialWords: SocialWord[] = [
     "Emphasize a clear and deliberate wrist nod to make the motion distinguishable.",
     "Two nods is the standard, one firm nod can also work."
   ],
-    image: "/src/assets/SocialWords/Yes.gif",
+    image: "/src/assets/SocialWords/yes.png",
     isLearned: false
   },
   {
@@ -88,7 +88,7 @@ export const socialWords: SocialWord[] = [
     "Keep fingers together and hand flat throughout the entire movement.",
     "End with the palm clearly facing upward and arm extended forward."
   ],
-    image: "/src/assets/SocialWords/Thank_You.gif",
+    image: "/src/assets/SocialWords/thankyou.png",
     isLearned: false
   },
   {
@@ -99,7 +99,7 @@ export const socialWords: SocialWord[] = [
      "Keep the fingers together and the movement smooth.",
      "Move the hand from right to left while focused on the wrist's motion"
     ],
-    image: "/src/assets/SocialWords/I-Love-You.gif",
+    image: "/src/assets/SocialWords/ILoveYou.png",
     isLearned: false
   },
 
@@ -112,7 +112,7 @@ export const socialWords: SocialWord[] = [
     "Either direction, ear to mouth or mouth to ear, is acceptable.",
     "Keep the index finger fully extended and pointed throughout the entire motion."
   ],
-    image: "/src/assets/SocialWords/Deaf.gif",
+    image: "/src/assets/SocialWords/Deaf.png",
     isLearned: false
   },
   

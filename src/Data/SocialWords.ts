@@ -125,7 +125,7 @@ export const socialWords: SocialWord[] = [
     "Keep the index finger fully extended and pointing forward throughout the loop.",
     "The circle is small and tight, one clean loop is enough to sign it clearly."
   ],
-    image: "/src/assets/SocialWords/Hear.gif",
+    image: "/src/assets/SocialWords/Hearing_Person.jpg",
     isLearned: false
   }
 ]

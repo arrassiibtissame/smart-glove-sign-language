@@ -56,13 +56,13 @@ export const verbs : Verbs[] = [
   {
     
     letter: "Hear",
-    description: "Point your right index finger toward your ear and make a small circular motion near it.",
+    description: "Place your right hand near your ear with the thumb resting close to it, then curl your index and middle fingers in and out in a gentle repeated pulsing motion.",
     tips: [
-    "The index finger stays close to the ear, don't point it outward away from the head.",
-    "The circular motion is small and tight, just beside the ear.",
-    "Keep all other fingers loosely curled into the palm."
+    "The thumb stays anchored near the ear as the reference point throughout.",
+    "Only the index and middle fingers move, curling inward and releasing repeatedly.",
+    "The pulsing motion is soft and gentle, not a sharp snap.",
   ],
-    image: "/src/assets/verbsImg/Hear.png",
+    image: "/src/assets/verbsImg/Hear.gif",
     isLearned: false
   },
 
@@ -210,7 +210,7 @@ export const verbs : Verbs[] = [
     "The head tilts to meet the hands, not the other way around.",
     "Emphasize the wrist tilt sideways as both hands move toward the cheek together."
   ],
-    image: "/src/assets/verbsImg/Sleep.png",
+    image: "/src/assets/verbsImg/Sleep.webp",
     isLearned: false
   },
 

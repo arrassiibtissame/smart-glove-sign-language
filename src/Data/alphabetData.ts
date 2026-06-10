@@ -9,7 +9,7 @@ export const AlpahbetData: indexAlphabet[] = [
       "Keep your thumb relaxed and resting on the side of your index finger.",
       "Practice transitioning from other letters to A to improve your fluidity."
     ],
-    image: "/images/A.png",
+    image: "/src/assets/imgsAlph/Letter_A.jpg",
     isLearned: false  
   },
 
@@ -22,7 +22,7 @@ export const AlpahbetData: indexAlphabet[] = [
        "Thumb should press tightly toward the little finger.",
        "Palm faces forward."
     ],
-    image: "/images/A.png",
+    image: "/src/assets/imgsAlph/Letter_B.png",
     isLearned: false  
   },
 
@@ -34,7 +34,7 @@ export const AlpahbetData: indexAlphabet[] = [
       "Practice in front of a mirror to check your form.",
       "Keep your movements smooth and natural."
     ],
-    image: "/images/A.png",
+    image: "/src/assets/imgsAlph/Letter_C.png",
     isLearned: false  
   },
 
@@ -48,7 +48,7 @@ export const AlpahbetData: indexAlphabet[] = [
     "Turn the hand so it is viewed from the side (not palm-forward).",
     "The palm is oriented sideways, not facing the viewer."
     ],
-    image: "/images/D.png",
+    image: "/src/assets/imgsAlph/Letter_D.png",
     isLearned: false  
   },
 
@@ -60,7 +60,7 @@ export const AlpahbetData: indexAlphabet[] = [
       "Practice in front of a mirror to check your form.",
       "Keep your movements smooth and natural."
     ],
-    image: "/images/E.png",
+    image: "/src/assets/imgsAlph/Letter_E.png",
     isLearned: false  
   },
 {
@@ -71,7 +71,7 @@ export const AlpahbetData: indexAlphabet[] = [
       "Practice in front of a mirror to check your form.",
       "Keep your movements smooth and natural."
     ],
-    image: "/images/F.png",
+    image: "/src/assets/imgsAlph/Letter_F.png",
     isLearned: false  
   },
 {
@@ -82,7 +82,7 @@ export const AlpahbetData: indexAlphabet[] = [
       "Practice in front of a mirror to check your form.",
       "Keep your movements smooth and natural."
     ],
-    image: "/images/G.png",
+    image: "/src/assets/imgsAlph/Letter_G.jpg",
     isLearned: false  
   },
 {
@@ -93,7 +93,7 @@ export const AlpahbetData: indexAlphabet[] = [
       "Practice in front of a mirror to check your form.",
       "Keep your movements smooth and natural."
     ],
-    image: "/images/H.png",
+    image: "/src/assets/imgsAlph/Letter_H.png",
     isLearned: false  
   },
 {
@@ -104,7 +104,7 @@ export const AlpahbetData: indexAlphabet[] = [
       "Practice in front of a mirror to check your form.",
       "Keep your movements smooth and natural."
     ],
-    image: "/images/I.png",
+    image: "/src/assets/imgsAlph/Letter_I.jpg",
     isLearned: false  
   },
 {
@@ -115,7 +115,7 @@ export const AlpahbetData: indexAlphabet[] = [
       "Practice in front of a mirror to check your form.",
       "Keep your movements smooth and natural."
     ],
-    image: "/images/J.png",
+    image: "/src/assets/imgsAlph/Letter_J.jpg",
     isLearned: false  
   },
 {
@@ -126,7 +126,7 @@ export const AlpahbetData: indexAlphabet[] = [
       "Practice in front of a mirror to check your form.",
       "Keep your movements smooth and natural."
     ],
-    image: "/images/K.png",
+    image: "/src/assets/imgsAlph/Letter_K.jpg",
     isLearned: false  
   },
 {
@@ -137,7 +137,7 @@ export const AlpahbetData: indexAlphabet[] = [
       "Practice in front of a mirror to check your form.",
       "Keep your movements smooth and natural."
     ],
-    image: "/images/L.png",
+    image: "/src/assets/imgsAlph/Letter_L.jpg",
     isLearned: false  
   },
 {
@@ -148,7 +148,7 @@ export const AlpahbetData: indexAlphabet[] = [
       "Practice in front of a mirror to check your form.",
       "Keep your movements smooth and natural."
     ],
-    image: "/images/M.png",
+    image: "/src/assets/imgsAlph/Letter_M.jpg",
     isLearned: false  
   },
 {
@@ -159,7 +159,7 @@ export const AlpahbetData: indexAlphabet[] = [
       "Practice in front of a mirror to check your form.",
       "Keep your movements smooth and natural."
     ],
-    image: "/images/N.png",
+    image: "/src/assets/imgsAlph/Letter_N.jpg",
     isLearned: false  
   },
 {
@@ -170,7 +170,7 @@ export const AlpahbetData: indexAlphabet[] = [
       "Practice in front of a mirror to check your form.",
       "Keep your movements smooth and natural."
     ],
-    image: "/images/O.png",
+    image: "/src/assets/imgsAlph/Letter_O.jpg",
     isLearned: false  
   },
 {
@@ -181,7 +181,7 @@ export const AlpahbetData: indexAlphabet[] = [
       "Practice in front of a mirror to check your form.",
       "Keep your movements smooth and natural."
     ],
-    image: "/images/P.png",
+    image: "/src/assets/imgsAlph/Letter_P.jpg",
     isLearned: false  
   },
 {
@@ -192,7 +192,7 @@ export const AlpahbetData: indexAlphabet[] = [
       "Practice in front of a mirror to check your form.",
       "Keep your movements smooth and natural."
     ],
-    image: "/images/Q.png",
+    image: "/src/assets/imgsAlph/Letter_Q.jpg",
     isLearned: false  
   },
 {
@@ -203,7 +203,7 @@ export const AlpahbetData: indexAlphabet[] = [
       "Practice in front of a mirror to check your form.",
       "Keep your movements smooth and natural."
     ],
-    image: "/images/R.png",
+    image: "/src/assets/imgsAlph/Letter_R.jpg",
     isLearned: false  
   },
 {
@@ -214,7 +214,7 @@ export const AlpahbetData: indexAlphabet[] = [
       "Practice in front of a mirror to check your form.",
       "Keep your movements smooth and natural."
     ],
-    image: "/images/S.png",
+    image: "/src/assets/imgsAlph/Letter_S.jpg",
     isLearned: false  
   },
   {
@@ -225,7 +225,7 @@ export const AlpahbetData: indexAlphabet[] = [
       "Practice in front of a mirror to check your form.",
       "Keep your movements smooth and natural."
     ],
-    image: "/images/T.png",
+    image: "/src/assets/imgsAlph/Letter_T.jpg",
     isLearned: false  
   },
   {
@@ -236,7 +236,7 @@ export const AlpahbetData: indexAlphabet[] = [
       "Practice in front of a mirror to check your form.",
       "Keep your movements smooth and natural."
     ],
-    image: "/images/U.png",
+    image: "/src/assets/imgsAlph/Letter_U.jpg",
     isLearned: false  
   },
   {
@@ -247,7 +247,7 @@ export const AlpahbetData: indexAlphabet[] = [
       "Let the thumb stay relaxed and flat against the ring finger.",
       "Keep your movements smooth and natural."
     ],
-    image: "/images/V.png",
+    image: "/src/assets/imgsAlph/Letter_V.jpg",
     isLearned: false  
   },
   {
@@ -258,7 +258,7 @@ export const AlpahbetData: indexAlphabet[] = [
       "Practice in front of a mirror to check your form.",
       "Keep your movements smooth and natural."
     ],
-    image: "/images/W.png",
+    image: "/src/assets/imgsAlph/Letter_W.jpg",
     isLearned: false  
   },
 
@@ -270,7 +270,7 @@ export const AlpahbetData: indexAlphabet[] = [
       "Practice in front of a mirror to check your form.",
       "Keep your movements smooth and natural."
     ],
-    image: "/images/X.png",
+    image: "/src/assets/imgsAlph/Letter_X.jpg",
     isLearned: false  
   },
   
@@ -282,7 +282,7 @@ export const AlpahbetData: indexAlphabet[] = [
       "Practice in front of a mirror to check your form.",
       "Keep your movements smooth and natural."
     ],
-    image: "/images/Y.png",
+    image: "/src/assets/imgsAlph/Letter_Y.png",
     isLearned: false  
   },
 
@@ -294,7 +294,7 @@ export const AlpahbetData: indexAlphabet[] = [
       "Practice in front of a mirror to check your form.",
       "Keep your movements smooth and natural."
     ],
-    image: "/images/Z.png",
+    image: "/src/assets/imgsAlph/Letter_Z.jpg",
     isLearned: false  
   },
 

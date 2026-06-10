@@ -147,7 +147,9 @@ function NavItem({ item, expanded }: { item: NavItem; expanded: boolean }) {
             gap: expanded ? "10px" : "0",
             padding: "9px 12px",
             borderRadius: "10px",
-            background: isActive ? "#0E64D2" : "transparent",
+            background: isActive
+              ? "linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)"
+              : "transparent",
             color: isActive ? "#fff" : "#64748b",
             fontWeight: isActive ? 600 : 400,
             fontSize: "14px",

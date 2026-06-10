@@ -2,7 +2,7 @@ import { Lightbulb } from "lucide-react";
 
 export function QuickTipCard() {
   return (
-    <div className="bg-blue-400 rounded-xl px-5 py-4">
+    <div className="bg-gradient-to-r from-blue-500 to-purple-500 hover:opacity-90 rounded-xl px-5 py-4">
       <p className="flex items-center gap-2 text-white font-semibold text-sm mb-1">
         <Lightbulb className="w-4 h-4" />
         Quick Tip

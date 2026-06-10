@@ -22,6 +22,7 @@ import { UtilityWordLearningPage } from "./features/LearningWords/UtilityWordsLe
 import { CategoryCradPageEss } from "./features/LearningEssentials/CategoryCradPageEss";
 import { PronounsLearningPage } from "./features/LearningEssentials/PronounsLearningPage";
 import { TimeLearningPage } from "./features/LearningEssentials/TimeLearningPage";
+import { Header } from "./components/Layout/Header";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -32,98 +33,107 @@ function App() {
     return <SplashScreen onFinish={() => setSplashFinished(true)} />;
 
   return (
-    <TooltipProvider>
-      <Toaster position="top-right" />
-      <Routes>
-        {/* AUTH ROUTES */}
-        <Route
-          path="/signIn"
-          element={<SignIn onLogin={() => setIsLoggedIn(true)} />}
-        />
-        <Route
-          path="/signUp"
-          element={<SignUp onLogin={() => setIsLoggedIn(true)} />}
-        />
-
-        {/* PROTECTED ROUTES */}
-        {isLoggedIn ? (
+    <div className="font-outfit">
+      <TooltipProvider>
+        <Toaster position="top-right" />
+        <Routes>
+          {/* AUTH ROUTES */}
           <Route
-            path="/*"
-            element={
-              <div className="flex min-h-screen">
-                <SideBar onLogout={handleLogout} />
-                <div
-                  style={{ flex: 1, display: "flex", flexDirection: "column" }}
-                >
-                  {""}
-                  {/** <Header /> */}
-
-                  <main className="flex-1 overflow-auto">
-                    <Routes>
-                      <Route
-                        path="/"
-                        element={<Navigate to="/dashboard" replace />}
-                      />
-                      <Route path="/dashboard" element={<DashboardPage />} />
-                      <Route path="/learning" element={<LearnPage />} />
-                      <Route
-                        path="/learning/alphabet"
-                        element={<AlphabetLearningPage />}
-                      />
-                      <Route
-                        path="/learning/numbers"
-                        element={<NumberLearningPage />}
-                      />
-                      <Route
-                        path="/learning/CategoryCardsPage"
-                        element={<CategoryCardsPage />}
-                      />
-
-                      <Route
-                        path="/learning/CategoryCardsWordPage"
-                        element={<CategoryCardsWordPage />}
-                      />
-                      <Route
-                        path="/learning/SocialWordLearningPage"
-                        element={<SocialWordLearningPage />}
-                      />
-                      <Route
-                        path="/learning/Colors"
-                        element={<ColorsLearningPage />}
-                      />
-                      <Route
-                        path="/learning/VerbsLearningPage"
-                        element={<VerbsLearningPage />}
-                      />
-                      <Route
-                        path="/learning/UtilityWordLearningPage"
-                        element={<UtilityWordLearningPage />}
-                      />
-                      <Route
-                        path="/learning/CategoryCradPageEss"
-                        element={<CategoryCradPageEss />}
-                      />
-                      <Route
-                        path="/learning/PronounsLearningPage"
-                        element={<PronounsLearningPage />}
-                      />
-                      <Route
-                        path="/learning/TimeLearningPage"
-                        element={<TimeLearningPage />}
-                      />
-                      <Route path="/history" element={<HistoryPage />} />
-                      <Route path="/settings" element={<Settings />} />
-                    </Routes>
-                  </main>
-                </div>
-              </div>
-            }
+            path="/signIn"
+            element={<SignIn onLogin={() => setIsLoggedIn(true)} />}
           />
-        ) : (
-          <Route path="*" element={<Navigate to="/signIn" replace />} />
-        )}
-      </Routes>
-    </TooltipProvider>
+          <Route
+            path="/signUp"
+            element={<SignUp onLogin={() => setIsLoggedIn(true)} />}
+          />
+
+          {/* PROTECTED ROUTES */}
+          {isLoggedIn ? (
+            <Route
+              path="/*"
+              element={
+                <div className="flex min-h-screen">
+                  <SideBar onLogout={handleLogout} />
+                  <div
+                    style={{
+                      flex: 1,
+                      display: "flex",
+                      flexDirection: "column",
+                    }}
+                  >
+                    {""}
+                    {/** <Header /> */}
+                    <div className=" ml-1 mt-1 mr-1">
+                      <Header />
+                    </div>
+
+                    <main className="flex-1 overflow-auto">
+                      <Routes>
+                        <Route
+                          path="/"
+                          element={<Navigate to="/dashboard" replace />}
+                        />
+                        <Route path="/dashboard" element={<DashboardPage />} />
+                        <Route path="/learning" element={<LearnPage />} />
+                        <Route
+                          path="/learning/alphabet"
+                          element={<AlphabetLearningPage />}
+                        />
+                        <Route
+                          path="/learning/numbers"
+                          element={<NumberLearningPage />}
+                        />
+                        <Route
+                          path="/learning/CategoryCardsPage"
+                          element={<CategoryCardsPage />}
+                        />
+
+                        <Route
+                          path="/learning/CategoryCardsWordPage"
+                          element={<CategoryCardsWordPage />}
+                        />
+                        <Route
+                          path="/learning/SocialWordLearningPage"
+                          element={<SocialWordLearningPage />}
+                        />
+                        <Route
+                          path="/learning/Colors"
+                          element={<ColorsLearningPage />}
+                        />
+                        <Route
+                          path="/learning/VerbsLearningPage"
+                          element={<VerbsLearningPage />}
+                        />
+                        <Route
+                          path="/learning/UtilityWordLearningPage"
+                          element={<UtilityWordLearningPage />}
+                        />
+                        <Route
+                          path="/learning/CategoryCradPageEss"
+                          element={<CategoryCradPageEss />}
+                        />
+                        <Route
+                          path="/learning/PronounsLearningPage"
+                          element={<PronounsLearningPage />}
+                        />
+                        <Route
+                          path="/learning/TimeLearningPage"
+                          element={<TimeLearningPage />}
+                        />
+                        <Route path="/history" element={<HistoryPage />} />
+                        <Route path="/settings" element={<Settings />} />
+                      </Routes>
+                    </main>
+                  </div>
+                </div>
+              }
+            />
+          ) : (
+            <Route path="*" element={<Navigate to="/signIn" replace />} />
+          )}
+        </Routes>
+      </TooltipProvider>
+    </div>
   );
 }
 

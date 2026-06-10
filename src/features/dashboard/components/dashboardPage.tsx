@@ -10,7 +10,7 @@ export function DashboardPage() {
     setTranslation(letter);
   };
   return (
-    <div className="flex-1 p-6">
+    <div className="flex-1 p-6 h-full bg-gradient-to-br from-blue-50 to-purple-50">
       <div className=" grid gap-6 md:grid-cols-2">
         <AslInputCard onPrediction={handlePrediction} />
         <TranslationCard translation={translation} />

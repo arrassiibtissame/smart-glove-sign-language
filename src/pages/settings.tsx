@@ -73,7 +73,7 @@ export function Settings() {
   };
 
   return (
-    <div className="h-full bg-gray-50 p-6">
+    <div className="h-full bg-gradient-to-br from-blue-50 to-purple-50 p-6">
       <Toaster position="top-right" />
 
       <div className="max-w-7xl mx-auto">

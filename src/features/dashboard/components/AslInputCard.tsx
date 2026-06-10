@@ -24,7 +24,7 @@ export function AslInputCard({ onPrediction }: AslInputCardProps) {
     <Card className="border border-gray-200 shadow-sm">
       <CardHeader className="flex flex-row items-center justify-between pb-4">
         <CardTitle className="flex items-center gap-3 text-xl font-semibold text-gray-900">
-          <span className="flex items-center justify-center w-11 h-11 rounded-xl bg-blue-600">
+          <span className="flex items-center justify-center w-11 h-11 rounded-xl bg-gradient-to-r from-blue-500 to-purple-500">
             <Hand className="w-6 h-6 text-white" />
           </span>
           ASL Input
@@ -36,7 +36,7 @@ export function AslInputCard({ onPrediction }: AslInputCardProps) {
             className={`${
               isProcessing
                 ? "bg-red-500 hover:bg-red-600"
-                : "bg-blue-600 hover:bg-blue-700"
+                : "bg-gradient-to-r from-blue-500 to-purple-500 hover:opacity-90"
             } text-white font-medium px-6 py-2 rounded-lg flex items-center gap-2`}
           >
             {isProcessing ? "Stop Glove" : "Start Glove"}
@@ -46,7 +46,7 @@ export function AslInputCard({ onPrediction }: AslInputCardProps) {
 
       <CardContent>
         <div className="flex flex-col items-center justify-center gap-4 bg-blue-50 rounded-xl py-12 border border-blue-100">
-          <div className="flex items-center justify-center w-14 h-14 rounded-full bg-blue-600">
+          <div className="flex items-center justify-center w-14 h-14 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 hover:opacity-90">
             <Hand className="w-7 h-7 text-white" />
           </div>
           <p className="text-gray-500 text-sm">Ready To start Translating</p>
@@ -54,8 +54,8 @@ export function AslInputCard({ onPrediction }: AslInputCardProps) {
             onClick={connected ? disconnect : connect}
             className={`${
               connected
-                ? "bg-red-400 hover:bg-red-500"
-                : "bg-teal-400 hover:bg-teal-500"
+                ? "bg-red-500 hover:bg-red-600"
+                : "bg-gradient-to-r from-blue-500 to-purple-500 hover:opacity-90"
             } text-white font-medium px-5 py-2 rounded-lg`}
           >
             {connected ? "Disconnect" : "Connect Glove"}

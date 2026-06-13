@@ -9,7 +9,6 @@
   "header": {
     "welcome": "Welcome Back"
   },
- 
   "history": {
     "title": "Translation History",
     "subtitle": "View and manage your past translations",
@@ -33,9 +32,6 @@
     "profilePicture": "Profile Picture",
     "profilePictureDesc": "Upload a photo to personalize your account"
   },
-  
-  
-
   "auth": {
     "signIn": "Sign In",
     "signUp": "Sign Up",
@@ -59,65 +55,72 @@
     "passwordTooShort": "Password must be at least 6 characters"
   },
   "faq": {
-  "title": "FAQ",
-  "q1": "How do I connect the glove?",
-  "a1": "To connect the glove, turn on Bluetooth on your device, then press the power button on the glove for 3 seconds until the LED blinks blue. Select 'SignGlove' from your device's Bluetooth menu.",
-  "q2": "What if the gesture is not recognized?",
-  "a2": "Ensure the glove is properly fitted and charged. Try repositioning your hand or recalibrating the glove in settings. Make sure there's no interference from other Bluetooth devices.",
-  "q3": "How can I change the language?",
-  "a3": "Go to the Languages tab in Settings and select your preferred sign language and translation language.",
-  "q4": "How do I enable or disable voice output?",
-  "a4": "Voice output can be toggled in the main translator screen by tapping the speaker icon."
-},
-"cards": {
-  "alphabet": "Alphabet",
-  "alphabetDesc": "Learn the ASL alphabet from A to Z",
-  "alphabetBadge": "26 Letters",
-  "basics": "Basics",
-  "basicsDesc": "Alphabet, Numbers and Pronouns",
-  "basicsBadge": "3 Categories",
-  "numbers": "Numbers",
-  "numbersDesc": "Master counting in ASL from 0 to 10",
-  "numbersBadge": "10 Numbers",
-  "colors": "Colors",
-  "colorsDesc": "Learn the American Sign Language colors",
-  "colorsBadge": "9 Colors",
-  "sentences": "Sentences",
-  "sentencesDesc": "Common sentences and introductions",
-  "sentencesBadge": "8 phrases",
-  "words": "Words",
-  "wordsDesc": "Social words and verbs",
-  "wordsBadge": "2 Categories",
-  "learnBasics": "Learn the Basics",
-  "learnBasicsDesc": "Choose what you'd like to learn",
-  "learnTitle": "Learn Sign Language",
-  "learnSubtitle": "Choose what you'd like to learn today",
-  "whyLearn": "Why Learn Sign Language?",
-  "connect": "Connect with Others",
-  "connectDesc": "Communicate with the deaf and hard-of-hearing community",
-  "boostBrain": "Boost Your Brain",
-  "boostBrainDesc": "Learning sign language improves memory and cognitive skills",
-  "career": "Career Benefits",
-  "careerDesc": "Valuable skill for many professional fields"
-},
-    "words": {
-  "socialWords": "ASL Social Words",
-  "socialWordsDesc": "Master the American Sign Language social words",
-  "verbs": "Verbs",
-  "verbsDesc": "Learn and Master Basic Verbs in American Sign Language",
-  "verbsBadge": "5 Verbs",
-  "wordsCard": "Words",
-  "wordsCardDesc": "Learn Everyday Social Words in American Sign Language",
-  "wordsBadge": "10 Words",
-  "learnWords": "Learn the Basics",
-  "learnWordsDesc": "Choose what you'd like to learn"
-},
- 
-  
-
-  
-
-
+    "title": "FAQ",
+    "q1": "How do I connect the glove?",
+    "a1": "To connect the glove, turn on Bluetooth on your device, then press the power button on the glove for 3 seconds until the LED blinks blue. Select 'SignGlove' from your device's Bluetooth menu.",
+    "q2": "What if the gesture is not recognized?",
+    "a2": "Ensure the glove is properly fitted and charged. Try repositioning your hand or recalibrating the glove in settings.",
+    "q3": "How can I change the language?",
+    "a3": "Go to the Languages tab in Settings and select your preferred sign language and translation language.",
+    "q4": "How do I enable or disable voice output?",
+    "a4": "Voice output can be toggled in the main translator screen by tapping the speaker icon."
+  },
+  "cards": {
+    "alphabet": "Alphabet",
+    "alphabetDesc": "Learn the ASL alphabet from A to Z",
+    "alphabetBadge": "26 Letters",
+    "basics": "Basics",
+    "basicsDesc": "Alphabet, Numbers and Colors",
+    "basicsBadge": "3 Categories",
+    "numbers": "Numbers",
+    "numbersDesc": "Master counting in ASL from 0 to 10",
+    "numbersBadge": "10 Numbers",
+    "colors": "Colors",
+    "colorsDesc": "Learn the American Sign Language colors",
+    "colorsBadge": "9 Colors",
+    "words": "Words",
+    "wordsDesc": "Social, Utility Words and Verbs",
+    "wordsBadge": "3 Categories",
+    "essentials": "Essentials",
+    "essentialsDesc": "Pronouns, Time and Quantity Words",
+    "essentialsBadge": "3 Categories",
+    "learnBasics": "Learn the Basics",
+    "learnBasicsDesc": "Choose what you'd like to learn",
+    "learnTitle": "Learn Sign Language",
+    "learnSubtitle": "Choose what you'd like to learn today",
+    "whyLearn": "Why Learn Sign Language?",
+    "connect": "Connect with Others",
+    "connectDesc": "Communicate with the deaf and hard-of-hearing community",
+    "boostBrain": "Boost Your Brain",
+    "boostBrainDesc": "Learning sign language improves memory and cognitive skills",
+    "career": "Career Benefits",
+    "careerDesc": "Valuable skill for many professional fields"
+  },
+  "words": {
+    "socialWords": "ASL Social Words",
+    "socialWordsDesc": "Master the American Sign Language social words",
+    "verbs": "ASL Verbs",
+    "verbsDesc": "Learn and Master Basic Verbs in American Sign Language",
+    "verbsBadge": "5 Verbs",
+    "utility": "ASL Utility Words",
+    "utilityDesc": "Master the American Sign Language utility words",
+    "utilityBadge": "7 Utility Words",
+    "wordsCard": "Social",
+    "wordsCardDesc": "Learn Everyday Social Words in American Sign Language",
+    "wordsBadge": "10 Words",
+    "learnWords": "Learn the Words",
+    "learnWordsDesc": "Choose what you'd like to learn"
+  },
+  "essentials": {
+    "title": "Learn the Essentials",
+    "desc": "Choose what you'd like to learn",
+    "pronouns": "Pronouns",
+    "pronounsDesc": "Learn the American Sign Language pronouns",
+    "pronounsBadge": "9 Pronouns",
+    "time": "Time & Quantity",
+    "timeDesc": "Learn the American Sign Language time signs",
+    "timeBadge": "9 Signs"
+  },
   "toast": {
     "settingsSaved": "Settings saved",
     "changesCancelled": "Changes cancelled",
@@ -152,11 +155,11 @@
     "title": "Learn Sign Language",
     "subtitle": "Choose what you'd like to learn today",
     "basics": "Basics",
-    "basicsDesc": "Alphabet, Numbers and Pronouns",
-    "sentences": "Sentences",
-    "sentencesDesc": "Useful everyday sentences and expressions",
-    "greetings": "Greetings",
-    "greetingsDesc": "Common greetings and introductions"
+    "basicsDesc": "Alphabet, Numbers and Colors",
+    "words": "Words",
+    "wordsDesc": "Social, Utility Words and Verbs",
+    "essentials": "Essentials",
+    "essentialsDesc": "Pronouns, Time and Quantity Words"
   },
   "dashboard": {
     "aslInput": "ASL Input",
@@ -168,39 +171,31 @@
     "speak": "Speak",
     "quickTip": "Quick Tip",
     "tipText": "Make sure your glove is properly calibrated before starting a translation session.",
-    "stopGlove":"Stop Glove",
+    "stopGlove": "Stop Glove",
     "disconnect": "Disconnect"
-     
-  
   },
   "learning": {
-  "backToCategories": "← Back to Categories",
-  "aslAlphabet": "ASL Alphabet",
-  "aslAlphabetDesc": "Master the American Sign Language alphabet",
-  "holdPosition": "Hold Position",
-  "tipsTitle": "Tips for Success",
-  "previous": "Previous",
-  "next": "Next",
-  "progress": "Progress",
-  "learned": "Learned",
-  "quickReference": "Quick Reference",
-  "learnMode": "Learn Mode",
-  "learnModeDesc": "Study at your own pace with animations",
-  "practiceMode": "Practice Mode",
-  "practiceModeDesc": "Review and reinforce your knowledge"
-
-},
-"colors": {
-  "title": "ASL Colors",
-  "desc": "Master the American Sign Language colors"
-},
-"greetings": {
-  "title": "ASL Greetings", 
-  "desc": "Master the American Sign Language greetings"
-},
-"numbers": {
-  "title": "ASL Numbers",
-  "desc": "Master the American Sign Language numbers from 0 to 10"
-}
-
+    "backToCategories": "← Back to Categories",
+    "aslAlphabet": "ASL Alphabet",
+    "aslAlphabetDesc": "Master the American Sign Language alphabet",
+    "holdPosition": "Hold Position",
+    "tipsTitle": "Tips for Success",
+    "previous": "Previous",
+    "next": "Next",
+    "progress": "Progress",
+    "learned": "Learned",
+    "quickReference": "Quick Reference",
+    "learnMode": "Learn Mode",
+    "learnModeDesc": "Study at your own pace with animations",
+    "practiceMode": "Practice Mode",
+    "practiceModeDesc": "Review and reinforce your knowledge"
+  },
+  "numbers": {
+    "title": "ASL Numbers",
+    "desc": "Master counting in ASL from 0 to 10"
+  },
+  "colors": {
+    "title": "ASL Colors",
+    "desc": "Master the American Sign Language colors"
+  }
 }

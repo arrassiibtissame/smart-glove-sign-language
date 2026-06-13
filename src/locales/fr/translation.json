@@ -9,7 +9,6 @@
   "header": {
     "welcome": "Bon retour"
   },
-  
   "history": {
     "title": "Historique des traductions",
     "subtitle": "Consultez et gérez vos traductions passées",
@@ -55,50 +54,73 @@
     "passwordsNoMatch": "Les mots de passe ne correspondent pas",
     "passwordTooShort": "Le mot de passe doit contenir au moins 6 caractères"
   },
-"faq": {
-  "title": "FAQ",
-  "q1": "Comment connecter le gant ?",
-  "a1": "Pour connecter le gant, activez le Bluetooth sur votre appareil, puis appuyez sur le bouton d'alimentation du gant pendant 3 secondes jusqu'à ce que la LED clignote en bleu. Sélectionnez 'SignGlove' dans le menu Bluetooth.",
-  "q2": "Que faire si le geste n'est pas reconnu ?",
-  "a2": "Assurez-vous que le gant est bien ajusté et chargé. Essayez de repositionner votre main ou de recalibrer le gant dans les paramètres.",
-  "q3": "Comment changer la langue ?",
-  "a3": "Allez dans l'onglet Langues des Paramètres et sélectionnez votre langue préférée.",
-  "q4": "Comment activer ou désactiver la sortie vocale ?",
-  "a4": "La sortie vocale peut être activée dans l'écran principal du traducteur en appuyant sur l'icône du haut-parleur."
-},
-"cards": {
-  "alphabet": "Alphabet",
-  "alphabetDesc": "Apprenez l'alphabet ASL de A à Z",
-  "alphabetBadge": "26 Lettres",
-  "basics": "Bases",
-  "basicsDesc": "Alphabet, chiffres et pronoms",
-  "basicsBadge": "3 Catégories",
-  "numbers": "Chiffres",
-  "numbersDesc": "Maîtrisez le comptage en ASL de 0 à 10",
-  "numbersBadge": "10 Chiffres",
-  "colors": "Couleurs",
-  "colorsDesc": "Apprenez les couleurs en langue des signes américaine",
-  "colorsBadge": "9 Couleurs",
-  "sentences": "Phrases",
-  "sentencesDesc": "Phrases et introductions courantes",
-  "sentencesBadge": "8 phrases",
-  "words": "Mots",
-  "wordsDesc": "Mots sociaux et verbes",
-  "wordsBadge": "2 Catégories",
-  "learnBasics": "Apprendre les bases",
-  "learnBasicsDesc": "Choisissez ce que vous voulez apprendre",
-  "learnTitle": "Apprendre la langue des signes",
-  "learnSubtitle": "Choisissez ce que vous souhaitez apprendre aujourd'hui",
-  "whyLearn": "Pourquoi apprendre la langue des signes ?",
-  "connect": "Connectez-vous avec les autres",
-  "connectDesc": "Communiquez avec la communauté des sourds et malentendants",
-  "boostBrain": "Stimulez votre cerveau",
-  "boostBrainDesc": "Apprendre la langue des signes améliore la mémoire et les capacités cognitives",
-  "career": "Avantages professionnels",
-  "careerDesc": "Compétence précieuse dans de nombreux domaines professionnels"
-},
-
-
+  "faq": {
+    "title": "FAQ",
+    "q1": "Comment connecter le gant ?",
+    "a1": "Pour connecter le gant, activez le Bluetooth sur votre appareil, puis appuyez sur le bouton d'alimentation du gant pendant 3 secondes jusqu'à ce que la LED clignote en bleu. Sélectionnez 'SignGlove' dans le menu Bluetooth.",
+    "q2": "Que faire si le geste n'est pas reconnu ?",
+    "a2": "Assurez-vous que le gant est bien ajusté et chargé. Essayez de repositionner votre main ou de recalibrer le gant dans les paramètres.",
+    "q3": "Comment changer la langue ?",
+    "a3": "Allez dans l'onglet Langues des Paramètres et sélectionnez votre langue préférée.",
+    "q4": "Comment activer ou désactiver la sortie vocale ?",
+    "a4": "La sortie vocale peut être activée dans l'écran principal du traducteur en appuyant sur l'icône du haut-parleur."
+  },
+  "cards": {
+    "alphabet": "Alphabet",
+    "alphabetDesc": "Apprenez l'alphabet ASL de A à Z",
+    "alphabetBadge": "26 Lettres",
+    "basics": "Bases",
+    "basicsDesc": "Alphabet, Chiffres et Couleurs",
+    "basicsBadge": "3 Catégories",
+    "numbers": "Chiffres",
+    "numbersDesc": "Maîtrisez le comptage en ASL de 0 à 10",
+    "numbersBadge": "10 Chiffres",
+    "colors": "Couleurs",
+    "colorsDesc": "Apprenez les couleurs en langue des signes américaine",
+    "colorsBadge": "9 Couleurs",
+    "words": "Mots",
+    "wordsDesc": "Mots sociaux, utilitaires et verbes",
+    "wordsBadge": "3 Catégories",
+    "essentials": "Essentiels",
+    "essentialsDesc": "Pronoms, Temps et Quantité",
+    "essentialsBadge": "3 Catégories",
+    "learnBasics": "Apprendre les bases",
+    "learnBasicsDesc": "Choisissez ce que vous voulez apprendre",
+    "learnTitle": "Apprendre la langue des signes",
+    "learnSubtitle": "Choisissez ce que vous souhaitez apprendre aujourd'hui",
+    "whyLearn": "Pourquoi apprendre la langue des signes ?",
+    "connect": "Connectez-vous avec les autres",
+    "connectDesc": "Communiquez avec la communauté des sourds et malentendants",
+    "boostBrain": "Stimulez votre cerveau",
+    "boostBrainDesc": "Apprendre la langue des signes améliore la mémoire et les capacités cognitives",
+    "career": "Avantages professionnels",
+    "careerDesc": "Compétence précieuse dans de nombreux domaines professionnels"
+  },
+  "words": {
+    "socialWords": "Mots sociaux ASL",
+    "socialWordsDesc": "Maîtrisez les mots sociaux en langue des signes américaine",
+    "verbs": "Verbes ASL",
+    "verbsDesc": "Apprenez et maîtrisez les verbes de base en langue des signes américaine",
+    "verbsBadge": "5 Verbes",
+    "utility": "Mots utilitaires ASL",
+    "utilityDesc": "Maîtrisez les mots utilitaires en langue des signes américaine",
+    "utilityBadge": "7 Mots utilitaires",
+    "wordsCard": "Social",
+    "wordsCardDesc": "Apprenez les mots sociaux du quotidien en langue des signes américaine",
+    "wordsBadge": "10 Mots",
+    "learnWords": "Apprendre les mots",
+    "learnWordsDesc": "Choisissez ce que vous voulez apprendre"
+  },
+  "essentials": {
+    "title": "Apprendre les essentiels",
+    "desc": "Choisissez ce que vous voulez apprendre",
+    "pronouns": "Pronoms",
+    "pronounsDesc": "Apprenez les pronoms en langue des signes américaine",
+    "pronounsBadge": "9 Pronoms",
+    "time": "Temps et Quantité",
+    "timeDesc": "Apprenez les signes de temps en langue des signes américaine",
+    "timeBadge": "9 Signes"
+  },
   "toast": {
     "settingsSaved": "Paramètres enregistrés",
     "changesCancelled": "Modifications annulées",
@@ -133,11 +155,11 @@
     "title": "Apprendre la langue des signes",
     "subtitle": "Choisissez ce que vous souhaitez apprendre aujourd'hui",
     "basics": "Bases",
-    "basicsDesc": "Alphabet, chiffres et pronoms",
-    "sentences": "Phrases",
-    "sentencesDesc": "Phrases et expressions utiles du quotidien",
-    "greetings": "Salutations",
-    "greetingsDesc": "Salutations et introductions courantes"
+    "basicsDesc": "Alphabet, Chiffres et Couleurs",
+    "words": "Mots",
+    "wordsDesc": "Mots sociaux, utilitaires et verbes",
+    "essentials": "Essentiels",
+    "essentialsDesc": "Pronoms, Temps et Quantité"
   },
   "dashboard": {
     "aslInput": "Entrée ASL",
@@ -149,38 +171,31 @@
     "speak": "Parler",
     "quickTip": "Conseil rapide",
     "tipText": "Assurez-vous que votre gant est bien calibré avant de commencer.",
-    "stopeGlove":"Arrêter le gant",
-      "disconnect": "Déconnecter"
+    "stopGlove": "Arrêter le gant",
+    "disconnect": "Déconnecter"
   },
   "learning": {
-  "backToCategories": "← Retour aux catégories",
-  "aslAlphabet": "Alphabet ASL",
-  "aslAlphabetDesc": "Maîtrisez l'alphabet de la langue des signes américaine",
-  "holdPosition": "Maintenir la position",
-  "tipsTitle": "Conseils pour réussir",
-  "previous": "Précédent",
-  "next": "Suivant",
-  "progress": "Progression",
-  "learned": "Appris",
-  "quickReference": "Référence rapide",
-  "learnMode": "Mode Apprentissage",
-  "learnModeDesc": "Étudiez à votre rythme avec des animations",
-  "practiceMode": "Mode Pratique",
-  "practiceModeDesc": "Révisez et renforcez vos connaissances"
-},
-"colors": { "title": "Couleurs ASL", "desc": "Maîtrisez les couleurs en langue des signes américaine" },
-"greetings": { "title": "Salutations ASL", "desc": "Maîtrisez les salutations en langue des signes américaine" },
-"numbers": { "title": "Chiffres ASL", "desc": "Maîtrisez les chiffres de 0 à 10 en langue des signes américaine" },
-"words": {
-  "socialWords": "Mots sociaux ASL",
-  "socialWordsDesc": "Maîtrisez les mots sociaux en langue des signes américaine",
-  "verbs": "Verbes",
-  "verbsDesc": "Apprenez et maîtrisez les verbes de base en langue des signes américaine",
-  "verbsBadge": "5 Verbes",
-  "wordsCard": "Mots",
-  "wordsCardDesc": "Apprenez les mots sociaux du quotidien en langue des signes américaine",
-  "wordsBadge": "10 Mots",
-  "learnWords": "Apprendre les bases",
-  "learnWordsDesc": "Choisissez ce que vous voulez apprendre"
-}
+    "backToCategories": "← Retour aux catégories",
+    "aslAlphabet": "Alphabet ASL",
+    "aslAlphabetDesc": "Maîtrisez l'alphabet de la langue des signes américaine",
+    "holdPosition": "Maintenez la position",
+    "tipsTitle": "Conseils pour réussir",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "progress": "Progression",
+    "learned": "Appris",
+    "quickReference": "Référence rapide",
+    "learnMode": "Mode apprentissage",
+    "learnModeDesc": "Étudiez à votre propre rythme avec des animations",
+    "practiceMode": "Mode pratique",
+    "practiceModeDesc": "Révisez et renforcez vos connaissances"
+  },
+  "numbers": {
+    "title": "Chiffres ASL",
+    "desc": "Maîtrisez le comptage en ASL de 0 à 10"
+  },
+  "colors": {
+    "title": "Couleurs ASL",
+    "desc": "Maîtrisez les couleurs en langue des signes américaine"
+  }
 }

@@ -9,7 +9,7 @@ import { NumbersData } from "@/Data/NumbersData";
 import { useTranslation } from "react-i18next";
 
 export function NumberLearningPage() {
-  const { t } = useTranslation(); 
+  const { t } = useTranslation();
   const [curentIndex, setCurrentIndex] = useState(0);
   const [learnedNumbers, setLearnedNumbers] = useState<boolean[]>(new Array(NumbersData.length).fill(false));
   const [currentMode, setCurrentMode] = useState<Mode>("Learn");
@@ -30,13 +30,16 @@ export function NumberLearningPage() {
     <div className="min-h-screen bg-blue-50 p-6 flex flex-col gap-6">
       <div className="max-w-6xl mx-auto w-full flex flex-col gap-6">
 
-        <button onClick={() => navigate("/learning/CategoryCardsPage")} className="text-blue-500 text-sm hover:underline self-start">
+        <button
+          onClick={() => navigate("/learning/basics")}
+          className="text-blue-500 text-sm hover:underline self-start"
+        >
           {t("learning.backToCategories")}
         </button>
 
         <div className="text-center">
-          <h1 className="text-3xl font-bold text-gray-900">{t("numbers.title")}</h1> 
-          <p className="text-gray-500 text-sm">{t("numbers.desc")}</p>               
+          <h1 className="text-3xl font-bold text-gray-900">{t("numbers.title")}</h1>
+          <p className="text-gray-500 text-sm">{t("numbers.desc")}</p>
         </div>
 
         <ModeSelector mode={currentMode} onModeChange={setCurrentMode} />
@@ -50,4 +53,3 @@ export function NumberLearningPage() {
     </div>
   );
 }
-

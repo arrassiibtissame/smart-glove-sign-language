@@ -81,7 +81,7 @@ if (rating === 0) { toast.error(t("toast.pleaseRate")); return; }
               >
                 <div className="flex items-center gap-3 text-lg">
                   <User className="w-5 h-5" />
-                  <span>{t("settings.profile")}</span> {/* ✅ */}
+                  <span>{t("settings.profile")}</span> 
                 </div>
               </button>
 
@@ -91,7 +91,7 @@ if (rating === 0) { toast.error(t("toast.pleaseRate")); return; }
               >
                 <div className="flex items-center gap-3 text-lg">
                   <Languages className="w-5 h-5" />
-                  <span>{t("settings.languages")}</span> {/* ✅ */}
+                  <span>{t("settings.languages")}</span> 
                 </div>
               </button>
 
@@ -101,7 +101,7 @@ if (rating === 0) { toast.error(t("toast.pleaseRate")); return; }
               >
                 <div className="flex items-center gap-3 text-lg">
                   <HelpCircle className="w-5 h-5" />
-                  <span>{t("settings.help")}</span> {/* ✅ */}
+                  <span>{t("settings.help")}</span> 
                 </div>
               </button>
             </nav>

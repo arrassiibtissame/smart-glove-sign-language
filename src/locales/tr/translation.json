@@ -9,7 +9,6 @@
   "header": {
     "welcome": "Tekrar Hoşgeldiniz"
   },
- 
   "history": {
     "title": "Çeviri Geçmişi",
     "subtitle": "Geçmiş çevirilerinizi görüntüleyin ve yönetin",
@@ -33,7 +32,7 @@
     "profilePicture": "Profil Fotoğrafı",
     "profilePictureDesc": "Hesabınızı kişiselleştirmek için bir fotoğraf yükleyin"
   },
- "auth": {
+  "auth": {
     "signIn": "Giriş Yap",
     "signUp": "Kayıt Ol",
     "email": "E-posta",
@@ -56,48 +55,72 @@
     "passwordTooShort": "Şifre en az 6 karakter olmalıdır"
   },
   "faq": {
-  "title": "SSS",
-  "q1": "Eldiveni nasıl bağlarım?",
-  "a1": "Eldiveni bağlamak için cihazınızda Bluetooth'u açın, ardından LED mavi yanıp sönene kadar eldiven güç düğmesine 3 saniye basın. Bluetooth menüsünden 'SignGlove'u seçin.",
-  "q2": "Hareket tanınmazsa ne yapmalıyım?",
-  "a2": "Eldiven düzgün takılı ve şarjlı olduğundan emin olun. Elinizi yeniden konumlandırmayı veya ayarlardan eldiveni yeniden kalibre etmeyi deneyin.",
-  "q3": "Dili nasıl değiştirebilirim?",
-  "a3": "Ayarlar'daki Diller sekmesine gidin ve tercih ettiğiniz dili seçin.",
-  "q4": "Ses çıkışını nasıl etkinleştiririm veya devre dışı bırakırım?",
-  "a4": "Ses çıkışı, hoparlör simgesine dokunarak ana çevirmen ekranından değiştirilebilir."
-},
-"cards": {
-  "alphabet": "Alfabe",
-  "alphabetDesc": "ASL alfabesini A'dan Z'ye öğrenin",
-  "alphabetBadge": "26 Harf",
-  "basics": "Temel Bilgiler",
-  "basicsDesc": "Alfabe, Sayılar ve Zamirler",
-  "basicsBadge": "3 Kategori",
-  "numbers": "Sayılar",
-  "numbersDesc": "ASL'de 0'dan 10'a kadar saymayı öğrenin",
-  "numbersBadge": "10 Sayı",
-  "colors": "Renkler",
-  "colorsDesc": "Amerikan İşaret Dili renklerini öğrenin",
-  "colorsBadge": "9 Renk",
-  "sentences": "Cümleler",
-  "sentencesDesc": "Yaygın cümleler ve tanışmalar",
-  "sentencesBadge": "8 ifade",
-  "words": "Kelimeler",
-  "wordsDesc": "Sosyal kelimeler ve fiiller",
-  "wordsBadge": "2 Kategori",
-  "learnBasics": "Temelleri Öğren",
-  "learnBasicsDesc": "Ne öğrenmek istediğinizi seçin",
-  "learnTitle": "İşaret Dili Öğren",
-  "learnSubtitle": "Bugün ne öğrenmek istediğinizi seçin",
-  "whyLearn": "Neden İşaret Dili Öğrenmelisiniz?",
-  "connect": "Başkalarıyla Bağlanın",
-  "connectDesc": "Sağır ve işitme engelli toplulukla iletişim kurun",
-  "boostBrain": "Beyninizi Geliştirin",
-  "boostBrainDesc": "İşaret dili öğrenmek hafızayı ve bilişsel becerileri geliştirir",
-  "career": "Kariyer Avantajları",
-  "careerDesc": "Birçok profesyonel alanda değerli bir beceri"
-},
-
+    "title": "SSS",
+    "q1": "Eldiveni nasıl bağlarım?",
+    "a1": "Eldiveni bağlamak için cihazınızda Bluetooth'u açın, ardından LED mavi yanıp sönene kadar eldiven güç düğmesine 3 saniye basın. Bluetooth menüsünden 'SignGlove'u seçin.",
+    "q2": "Hareket tanınmazsa ne yapmalıyım?",
+    "a2": "Eldiven düzgün takılı ve şarjlı olduğundan emin olun. Elinizi yeniden konumlandırmayı veya ayarlardan eldiveni yeniden kalibre etmeyi deneyin.",
+    "q3": "Dili nasıl değiştirebilirim?",
+    "a3": "Ayarlar'daki Diller sekmesine gidin ve tercih ettiğiniz dili seçin.",
+    "q4": "Ses çıkışını nasıl etkinleştiririm veya devre dışı bırakırım?",
+    "a4": "Ses çıkışı, hoparlör simgesine dokunarak ana çevirmen ekranından değiştirilebilir."
+  },
+  "cards": {
+    "alphabet": "Alfabe",
+    "alphabetDesc": "ASL alfabesini A'dan Z'ye öğrenin",
+    "alphabetBadge": "26 Harf",
+    "basics": "Temel Bilgiler",
+    "basicsDesc": "Alfabe, Sayılar ve Renkler",
+    "basicsBadge": "3 Kategori",
+    "numbers": "Sayılar",
+    "numbersDesc": "ASL'de 0'dan 10'a kadar saymayı öğrenin",
+    "numbersBadge": "10 Sayı",
+    "colors": "Renkler",
+    "colorsDesc": "Amerikan İşaret Dili renklerini öğrenin",
+    "colorsBadge": "9 Renk",
+    "words": "Kelimeler",
+    "wordsDesc": "Sosyal, Yardımcı Kelimeler ve Fiiller",
+    "wordsBadge": "3 Kategori",
+    "essentials": "Temel Kavramlar",
+    "essentialsDesc": "Zamirler, Zaman ve Miktar",
+    "essentialsBadge": "3 Kategori",
+    "learnBasics": "Temelleri Öğren",
+    "learnBasicsDesc": "Ne öğrenmek istediğinizi seçin",
+    "learnTitle": "İşaret Dili Öğren",
+    "learnSubtitle": "Bugün ne öğrenmek istediğinizi seçin",
+    "whyLearn": "Neden İşaret Dili Öğrenmelisiniz?",
+    "connect": "Başkalarıyla Bağlanın",
+    "connectDesc": "Sağır ve işitme engelli toplulukla iletişim kurun",
+    "boostBrain": "Beyninizi Geliştirin",
+    "boostBrainDesc": "İşaret dili öğrenmek hafızayı ve bilişsel becerileri geliştirir",
+    "career": "Kariyer Avantajları",
+    "careerDesc": "Birçok profesyonel alanda değerli bir beceri"
+  },
+  "words": {
+    "socialWords": "ASL Sosyal Kelimeler",
+    "socialWordsDesc": "Amerikan İşaret Dilindeki sosyal kelimeleri öğrenin",
+    "verbs": "ASL Fiiller",
+    "verbsDesc": "Amerikan İşaret Dilindeki temel fiilleri öğrenin ve ustalaşın",
+    "verbsBadge": "5 Fiil",
+    "utility": "ASL Yardımcı Kelimeler",
+    "utilityDesc": "Amerikan İşaret Dilindeki yardımcı kelimeleri öğrenin",
+    "utilityBadge": "7 Yardımcı Kelime",
+    "wordsCard": "Sosyal",
+    "wordsCardDesc": "Günlük sosyal kelimeleri Amerikan İşaret Dilinde öğrenin",
+    "wordsBadge": "10 Kelime",
+    "learnWords": "Kelimeleri Öğren",
+    "learnWordsDesc": "Ne öğrenmek istediğinizi seçin"
+  },
+  "essentials": {
+    "title": "Temel Kavramları Öğren",
+    "desc": "Ne öğrenmek istediğinizi seçin",
+    "pronouns": "Zamirler",
+    "pronounsDesc": "Amerikan İşaret Dilindeki zamirleri öğrenin",
+    "pronounsBadge": "9 Zamir",
+    "time": "Zaman ve Miktar",
+    "timeDesc": "Amerikan İşaret Dilindeki zaman işaretlerini öğrenin",
+    "timeBadge": "9 İşaret"
+  },
   "toast": {
     "settingsSaved": "Ayarlar kaydedildi",
     "changesCancelled": "Değişiklikler iptal edildi",
@@ -132,11 +155,11 @@
     "title": "İşaret Dili Öğren",
     "subtitle": "Bugün ne öğrenmek istediğinizi seçin",
     "basics": "Temel Bilgiler",
-    "basicsDesc": "Alfabe, Sayılar ve Zamirler",
-    "sentences": "Cümleler",
-    "sentencesDesc": "Günlük faydalı cümleler ve ifadeler",
-    "greetings": "Selamlaşmalar",
-    "greetingsDesc": "Yaygın selamlaşmalar ve tanışmalar"
+    "basicsDesc": "Alfabe, Sayılar ve Renkler",
+    "words": "Kelimeler",
+    "wordsDesc": "Sosyal, Yardımcı Kelimeler ve Fiiller",
+    "essentials": "Temel Kavramlar",
+    "essentialsDesc": "Zamirler, Zaman ve Miktar"
   },
   "dashboard": {
     "aslInput": "İşaret Dili Girişi",
@@ -149,38 +172,30 @@
     "quickTip": "Hızlı İpucu",
     "tipText": "Çeviri oturumuna başlamadan önce eldiven kalibrasyonunu kontrol edin.",
     "stopGlove": "Eldiveni Durdur",
-  "disconnect": "Bağlantıyı Kes"
-
+    "disconnect": "Bağlantıyı Kes"
   },
   "learning": {
-  "backToCategories": "← Kategorilere Dön",
-  "aslAlphabet": "ASL Alfabesi",
-  "aslAlphabetDesc": "Amerikan İşaret Dili alfabesini öğrenin",
-  "holdPosition": "Pozisyonu Koru",
-  "tipsTitle": "Başarı İpuçları",
-  "previous": "Önceki",
-  "next": "Sonraki",
-  "progress": "İlerleme",
-  "learned": "Öğrenildi",
-  "quickReference": "Hızlı Referans",
-  "learnMode": "Öğrenme Modu",
-  "learnModeDesc": "Animasyonlarla kendi hızınızda çalışın",
-  "practiceMode": "Pratik Modu",
-  "practiceModeDesc": "Bilgilerinizi gözden geçirin ve pekiştirin"
-},
-"colors": { "title": "ASL Renkler", "desc": "Amerikan İşaret Dili renklerini öğrenin" },
-"greetings": { "title": "ASL Selamlaşmalar", "desc": "Amerikan İşaret Dili selamlaşmalarını öğrenin" },
-"numbers": { "title": "ASL Sayılar", "desc": "Amerikan İşaret Dili ile 0'dan 10'a kadar sayıları öğrenin" },
-"words": {
-  "socialWords": "ASL Sosyal Kelimeler",
-  "socialWordsDesc": "Amerikan İşaret Dili sosyal kelimelerini öğrenin",
-  "verbs": "Fiiller",
-  "verbsDesc": "Amerikan İşaret Dilinde temel fiilleri öğrenin ve ustalaşın",
-  "verbsBadge": "5 Fiil",
-  "wordsCard": "Kelimeler",
-  "wordsCardDesc": "Amerikan İşaret Dilinde günlük sosyal kelimeleri öğrenin",
-  "wordsBadge": "10 Kelime",
-  "learnWords": "Temelleri Öğren",
-  "learnWordsDesc": "Ne öğrenmek istediğinizi seçin"
-}
+    "backToCategories": "← Kategorilere Geri Dön",
+    "aslAlphabet": "ASL Alfabesi",
+    "aslAlphabetDesc": "Amerikan İşaret Dili alfabesini öğrenin",
+    "holdPosition": "Pozisyonu Koru",
+    "tipsTitle": "Başarı İpuçları",
+    "previous": "Önceki",
+    "next": "Sonraki",
+    "progress": "İlerleme",
+    "learned": "Öğrenildi",
+    "quickReference": "Hızlı Referans",
+    "learnMode": "Öğrenme Modu",
+    "learnModeDesc": "Animasyonlarla kendi hızınızda çalışın",
+    "practiceMode": "Pratik Modu",
+    "practiceModeDesc": "Bilgilerinizi gözden geçirin ve pekiştirin"
+  },
+  "numbers": {
+    "title": "ASL Sayıları",
+    "desc": "ASL'de 0'dan 10'a kadar saymayı öğrenin"
+  },
+  "colors": {
+    "title": "ASL Renkleri",
+    "desc": "Amerikan İşaret Dilindeki renkleri öğrenin"
+  }
 }

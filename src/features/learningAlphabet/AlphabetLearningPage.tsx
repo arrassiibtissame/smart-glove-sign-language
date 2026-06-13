@@ -6,10 +6,10 @@ import { ModeSelector } from "./ModeSelector";
 import { ProgressBar } from "./ProgressBar";
 import { MainLetterCard } from "./MainLetterCard";
 import { QuickAlphReference } from "./QuickAlphReference";
-import { useTranslation } from "react-i18next"; 
+import { useTranslation } from "react-i18next";
 
 export function AlphabetLearningPage() {
-  const { t } = useTranslation(); 
+  const { t } = useTranslation();
   const [curentIndex, setCurrentIndex] = useState(0);
   const [learnedLetters, setLearnedLetters] = useState<boolean[]>(
     new Array(AlpahbetData.length).fill(false)
@@ -37,15 +37,15 @@ export function AlphabetLearningPage() {
       <div className="max-w-6xl mx-auto w-full flex flex-col gap-6">
 
         <button
-          onClick={() => navigate("/learning/CategoryCardsPage")}
+          onClick={() => navigate("/learning/basics")}
           className="text-blue-500 text-sm hover:underline self-start"
         >
-          {t("learning.backToCategories")} 
+          {t("learning.backToCategories")}
         </button>
 
         <div className="text-center">
           <h1 className="text-3xl font-bold text-gray-900">
-            {t("learning.aslAlphabet")} 
+            {t("learning.aslAlphabet")}
           </h1>
           <p className="text-gray-500 text-sm">
             {t("learning.aslAlphabetDesc")}

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Camera } from "lucide-react";
+
 import { Input } from "../ui/input";
 import { Label } from "../ui/label";
 import { useAuthStore } from "@/store/authStore";
@@ -67,13 +67,11 @@ export function ProfileSettings() {
           <div className="w-24 h-24 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center text-white text-2xl font-bold">
             {initials}
           </div>
-          <button className="absolute bottom-0 right-0 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white">
-            <Camera className="w-4 h-4" />
-          </button>
+         
         </div>
         <div>
-          <h3 className="text-lg font-semibold">{t("profile.title")}</h3> 
-          <p className="text-sm text-gray-500">{t("profile.subtitle")}</p> 
+          <h3 className="text-lg font-semibold"> {t("header.welcome")}, {firstName || user?.email}!</h3> 
+
         </div>
       </div>
 
